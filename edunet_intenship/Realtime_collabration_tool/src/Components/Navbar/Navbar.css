@@ -11,7 +11,7 @@
 .logo h1{
     font-size: 2rem;
     font-weight: 400;
-    color:  rgba(255, 255, 255, 0.671);
+    color:  rgba(27, 26, 26, 0.671);
 }
 
 .log{
@@ -24,9 +24,9 @@
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #cccaca;
+    background-color: #1b1a1a;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 400;
-    color: #333;
+    color: #f7f3f3;
 }

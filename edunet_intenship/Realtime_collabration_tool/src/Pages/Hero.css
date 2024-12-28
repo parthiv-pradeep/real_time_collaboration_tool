@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     height: 90vh;
-    background-color: #16242f;
+    background-color: #edf2f5;
 }
 .Hero_img img{
     width: 400px;
@@ -23,9 +23,9 @@
     width: 600px;
     font-size: 3rem;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.671);
+    color: rgba(15, 15, 15, 0.671);
 }
 .Hero_content p{
     width: 700px;
-    color:  rgba(255, 255, 255, 0.671);
+    color:  rgba(24, 23, 23, 0.671);
 }
