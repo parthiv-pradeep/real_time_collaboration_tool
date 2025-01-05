@@ -1,0 +1,240 @@
+.editor-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #f1f3f4;
+    height: 56px;
+  }
+  
+  .navbar-left h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .navbar-right .share-button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .toolbar {
+    background-color: #f1f3f4;
+    padding: 8px 16px;
+  }
+  .toolbar-container {
+    flex: 1; /* Take up remaining space */
+    overflow-y: auto; /* Enable scrolling if content overflows */
+  }
+  
+  .ql-editor {
+    min-height: calc(100vh - 100px); /* Adjust as needed */
+  }
+  .editor-container {
+    flex: 1;
+    background-color: white;
+    padding: 16px;
+    
+
+  }
+  /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+  
+  .form-container {
+    background-color: #080808;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+    perspective: 1000px; /* Adding perspective for 3D effect */
+    color: white;
+
+  }
+  .form-container a{
+    color: white;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form input[type="text"],
+  .form input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .form input[type="text"]:focus,
+  .form input[type="password"]:focus {
+    border-color: #000000;
+  }
+  
+  .form button {
+    background-color: #3057ad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .form button:hover {
+    background-color: #3e768e;
+  }
+  
+  .form p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .form p a {
+    color: #5c9ead;
+    text-decoration: none;
+  }
+  
+  .form p a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  
+  
+  
+ 
+  
+  
+  /* Media query for responsiveness */
+  @media (max-width: 480px) {
+    .form-container {
+      max-width: 300px;
+    }
+  }
+  /*Login*/
+  /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    margin: 0;
+    
+  }
+  
+  .login-container {
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    overflow: hidden;
+    perspective: 1000px; /* Adding perspective for 3D effect */
+    color: white;
+  }
+  .login-container a{
+    color: white;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form input[type="text"],
+  .login-form input[type="password"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .login-form input[type="text"]:focus,
+  .login-form input[type="password"]:focus {
+    border-color: #000000;
+  }
+  
+  .login-form button {
+    background-color:  #3057ad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .login-form button:hover {
+    background-color: #3e768e;
+  }
+  
+  .login-form p {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .login-form p a {
+    color: #5c9ead;
+    text-decoration: none;
+  }
+  
+  .login-form p a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  /* Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .login-form {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 480px) {
+    .login-container {
+      max-width: 300px;
+    }
+  }
+  
