@@ -28,10 +28,7 @@ function App() {
       path:'/document/:id',
       element:    <><EditorPage/></>
     },
-    {
-        path:'*',
-        element:    <><Navigate to={`/document/${Math.random().toString(36).substr(2, 9)}`} /></>
-      },
+   
     
   ])
   

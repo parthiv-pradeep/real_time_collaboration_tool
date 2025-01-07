@@ -16,6 +16,7 @@ const LandingPage = () => {
                     share ideas, and achieve more, faster. Whether you're brainstorming,
                     coding, or designing, our tools make it easy to connect and create.
                 </p>
+                
                 <div className="button-group">
                     <button className="login-button" onClick={() => navigate('/login')}>
                         Login
