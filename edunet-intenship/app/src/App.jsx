@@ -28,6 +28,7 @@ function App() {
       path:'/document/:id',
       element:    <><EditorPage/></>
     },
+
    
     
   ])
